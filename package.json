@@ -1,0 +1,18 @@
+{
+  "name": "stoicwp",
+  "version": "1.0.0",
+  "description": "StoicWP Minimal WordPress Theme",
+  "main": "index.js",
+  "repository": "https://github.com/WildPress/stoicwp-minimal-theme",
+  "author": "WildPress",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^19.0.5"
+  }
+}
