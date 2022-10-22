@@ -1,7 +1,7 @@
 let mix = require('laravel-mix');
 
-mix.ts('assets/scripts/frontend/frontend.ts', 'dist/stoicwp.js')
-    .sass('assets/styles/frontend/frontend.scss', 'stoicwp.css')
+mix.ts('assets/scripts/frontend/frontend.ts', 'dist/stoic-wp.js')
+    .sass('assets/styles/frontend/frontend.scss', 'stoic-wp.css')
     .sass('assets/styles/frontend/critical.scss', '')
     .options({
         processCssUrls: false
